@@ -12,7 +12,7 @@ I'm **Ahmed Doghri**, a **Senior AI Engineer** with **7+ years** of experience b
 
 
 ---
-🚀 **Tech Stack Mastery: Where I Spend My Time** 
+👨‍💻 **Tech Stack Mastery: Where I Spend My Time** 
 
 ```txt
 Python       ██████████████████████████░   95%
