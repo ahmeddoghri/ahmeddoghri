@@ -10,18 +10,18 @@ I'm **Ahmed Doghri**, a **Senior AI Engineer** with **7+ years** of experience b
 - **Deep Learning & NLP Research**: Working on **transformers, embeddings, and model fine-tuning**.
 - **Real-Time Data Processing**: Scaling **streaming pipelines with Kafka, Spark, and Flink**.
 
----
 
+---
 🚀 **Tech Stack Mastery: Where I Spend My Time** 
+
 ```txt
 Python       ██████████████████████████░   95%
 SQL          ███████████████████████░░░   90%
 R            ██████████████████░░░░░░░░   75%
 TypeScript   ██████████████░░░░░░░░░░░░   65%
 HTML & CSS   ████████████░░░░░░░░░░░░░░   60%
-
+```
 ---
-
 
 ### 🚀 Featured Projects
 
