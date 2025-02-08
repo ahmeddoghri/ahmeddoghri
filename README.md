@@ -10,19 +10,23 @@ I'm **Ahmed Doghri**, a **Senior AI Engineer** with **7+ years** of experience b
 - **Deep Learning & NLP Research**: Working on **transformers, embeddings, and model fine-tuning**.
 - **Real-Time Data Processing**: Scaling **streaming pipelines with Kafka, Spark, and Flink**.
 
-### 🔧 Technologies I Use
+---
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="Pytorch" src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img alt="TensorFlow" src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img alt="LangChain" src="https://img.shields.io/badge/-LangChain-3B3B3B?style=flat-square&logo=langchain&logoColor=white" />
-  <img alt="Google Cloud" src="https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img alt="Flink" src="https://img.shields.io/badge/-Apache%20Flink-E6526F?style=flat-square&logo=apache-flink&logoColor=white" />
-  <img alt="Spark" src="https://img.shields.io/badge/-Apache%20Spark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white" />
-</p>
+### 📊 This week I spent my time on:
+<!--START_SECTION:waka-->
+
+```txt
+Python       95 %
+SQL         90 %
+R           75 %
+TypeScript  65 %
+HTML & CSS  60 %
+```
+
+<!--END_SECTION:waka-->
+
+---
+
 
 ### 🚀 Featured Projects
 
@@ -33,11 +37,6 @@ I'm **Ahmed Doghri**, a **Senior AI Engineer** with **7+ years** of experience b
 | **Streaming Data Platform** | Engineered a **real-time event-driven ML pipeline** using **Kafka, Spark, and Flink**. |
 | **Biomedical Text Enrichment** | Leveraged **transformer models** to enhance research papers with biomedical insights. |
 
-### 📊 My GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adoghri&show_icons=true&theme=dark" alt="GitHub Stats"/>
-</p>
 
 ### 📬 Get in Touch
 
