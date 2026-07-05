@@ -23,7 +23,7 @@ HTML & CSS   ████████████░░░░░░░░░░�
 ```
 ---
 
-### 🚀 Featured Projects
+### 🚀 Featured Work
 
 | Project | Description |
 |---------|------------|
@@ -32,6 +32,16 @@ HTML & CSS   ████████████░░░░░░░░░░�
 | **Streaming Data Platform** | Engineered a **real-time event-driven ML pipeline** using **Kafka, Spark, and Flink**. |
 | **Biomedical Text Enrichment** | Leveraged **transformer models** to enhance research papers with biomedical insights. |
 
+### 🧪 Building from the Frontier
+
+Small, zero-dependency reference implementations of ideas from papers trending
+right now — each ships with tests and a reproducible benchmark, not just a demo.
+
+| Repo | Paper it's built from | Result |
+|---|---|---|
+| [**agentmem**](https://github.com/ahmeddoghri/agentmem) | AutoMem · AgenticSTS (2026) | Bounded, self-consolidating agent memory — salience-gated writes, decay-aware retrieval, consolidate-before-evict under a fixed budget |
+| [**rubricagent**](https://github.com/ahmeddoghri/rubricagent) | SkillCoach · PACE (2026) | Self-evolving LLM-as-judge rubrics — capability-proxy AUC **0.774 → 1.000** after one evolution pass |
+| [**clarifyrag**](https://github.com/ahmeddoghri/clarifyrag) | DiscoBench (2026) | Clarification-aware search agent — ask-gate **F1 1.00**, beats always-ask/always-search baselines on utility |
 
 ### 📬 Get in Touch
 
