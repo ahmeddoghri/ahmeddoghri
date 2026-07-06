@@ -55,6 +55,19 @@ same discipline, open-sourced as small, tested, runnable artifacts.
 | [**churnfm**](https://github.com/ahmeddoghri/churnfm) | Automated churn-model retraining pipelines | PSI drift detection + auto-retrain recovers precision **80% → 89%** after a simulated concept drift |
 | [**taggate**](https://github.com/ahmeddoghri/taggate) (TypeScript) | Confidence-gated multi-agent tagging (LangGraph-style) | Escalating only ambiguous items to a human takes accuracy **75% → 100%** |
 
+### 🛠️ Production Services
+
+Full FastAPI services, not just libraries — Docker, docker-compose, and
+GitHub Actions CI (test matrix + a live container smoke test) on every one.
+Each defaults to an offline/deterministic backend so CI needs zero API keys,
+and is pluggable to a real model/backend via env vars for actual production use.
+
+| Repo | What it does | Result |
+|---|---|---|
+| [**vllm-cost-router**](https://github.com/ahmeddoghri/vllm-cost-router) | Cost/latency-aware LLM gateway — complexity-based model routing, caching, tier-batching in front of vLLM | **73%** cost reduction, **73%** p95 latency reduction vs. always-large-model serving |
+| [**guardrail-gate**](https://github.com/ahmeddoghri/guardrail-gate) | PII redaction + citation-grounding + rate limiting for outbound LLM text | **100%** precision/recall on structured PII, **83%** accuracy separating grounded from hallucinated responses |
+| [**tablextract**](https://github.com/ahmeddoghri/tablextract) | Block-aware table extraction from documents mixing prose and tables (regulatory/FDA-style), with cited querying | **0% → 100%** cell accuracy vs. naive line-by-line parsing on a mixed-content document |
+
 ### 📬 Get in Touch
 
 <p>
