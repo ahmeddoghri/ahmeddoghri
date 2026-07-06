@@ -43,6 +43,18 @@ right now — each ships with tests and a reproducible benchmark, not just a dem
 | [**rubricagent**](https://github.com/ahmeddoghri/rubricagent) | SkillCoach · PACE (2026) | Self-evolving LLM-as-judge rubrics — capability-proxy AUC **0.774 → 1.000** after one evolution pass |
 | [**clarifyrag**](https://github.com/ahmeddoghri/clarifyrag) | DiscoBench (2026) | Clarification-aware search agent — ask-gate **F1 1.00**, beats always-ask/always-search baselines on utility |
 
+### 🏭 Grounded in Production Patterns
+
+Reference implementations of the RAG citation, human-in-the-loop, and MLOps
+patterns behind real systems I've shipped in regulated and B2B environments —
+same discipline, open-sourced as small, tested, runnable artifacts.
+
+| Repo | Mirrors | Result |
+|---|---|---|
+| [**citebench**](https://github.com/ahmeddoghri/citebench) | Production RAG citation-grounding (FDA/regulatory docs) | Hybrid retrieval + reranking lifts citation precision **62% → 88%** on an adversarial benchmark |
+| [**churnfm**](https://github.com/ahmeddoghri/churnfm) | Automated churn-model retraining pipelines | PSI drift detection + auto-retrain recovers precision **80% → 89%** after a simulated concept drift |
+| [**taggate**](https://github.com/ahmeddoghri/taggate) (TypeScript) | Confidence-gated multi-agent tagging (LangGraph-style) | Escalating only ambiguous items to a human takes accuracy **75% → 100%** |
+
 ### 📬 Get in Touch
 
 <p>
