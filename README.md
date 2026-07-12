@@ -4,15 +4,14 @@ I'm **Ahmed Doghri**, a **Senior AI Engineer** with **7+ years** of experience b
 
 ### 🛠️ What I Work On
 
-- **LLM Workflow Orchestration**: Building and optimizing **multi-agent LLM workflows** for automation.
-- **Retrieval-Augmented Generation (RAG) Systems**: Enhancing document intelligence with **search & extraction models**.
-- **Cloud & MLOps**: Optimizing **GCP, AWS, and Kubernetes** for large-scale AI deployments.
-- **Deep Learning & NLP Research**: Working on **transformers, embeddings, and model fine-tuning**.
-- **Real-Time Data Processing**: Scaling **streaming pipelines with Kafka, Spark, and Flink**.
-
+- **LLM Workflow Orchestration**: building and optimizing **multi-agent LLM workflows** for automation.
+- **Retrieval-Augmented Generation (RAG) Systems**: enhancing document intelligence with **search & extraction models**.
+- **Cloud & MLOps**: optimizing **GCP, AWS, and Kubernetes** for large-scale AI deployments.
+- **Deep Learning & NLP Research**: working on **transformers, embeddings, and model fine-tuning**.
+- **Real-Time Data Processing**: scaling **streaming pipelines with Kafka, Spark, and Flink**.
 
 ---
-👨‍💻 **Tech Stack Mastery: Where I Spend My Time** 
+👨‍💻 **Tech Stack Mastery: Where I Spend My Time**
 
 ```txt
 Python       █████████████████████████░   95%
@@ -23,7 +22,9 @@ HTML & CSS   ████████████░░░░░░░░░░�
 ```
 ---
 
-### 🚀 Featured Work
+### 💼 Professional Work
+
+Real systems I've shipped in regulated and B2B environments. Proprietary, not open source, but the discipline behind them is exactly what the repos below are built to demonstrate.
 
 | Project | Description |
 |---------|------------|
@@ -32,41 +33,21 @@ HTML & CSS   ████████████░░░░░░░░░░�
 | **Streaming Data Platform** | Engineered a **real-time event-driven ML pipeline** using **Kafka, Spark, and Flink**. |
 | **Biomedical Text Enrichment** | Leveraged **transformer models** to enhance research papers with biomedical insights. |
 
-### 🧪 Building from the Frontier
+### 🧪 Open Source: AI Infra Tools, With Receipts
 
-Small, zero-dependency reference implementations of ideas from papers trending
-right now — each ships with tests and a reproducible benchmark, not just a demo.
+Nine small, dependency-light tools for the unglamorous parts of shipping LLM and ML systems: routing, guardrails, memory, evals, retrieval, drift. Every headline number below reproduces locally with the linked command. No API keys, no asterisk.
 
-| Repo | Paper it's built from | Result |
-|---|---|---|
-| [**agentmem**](https://github.com/ahmeddoghri/agentmem) | AutoMem · AgenticSTS (2026) | Bounded, self-consolidating agent memory — salience-gated writes, decay-aware retrieval, consolidate-before-evict under a fixed budget |
-| [**rubricagent**](https://github.com/ahmeddoghri/rubricagent) | SkillCoach · PACE (2026) | Self-evolving LLM-as-judge rubrics — capability-proxy AUC **0.774 → 1.000** after one evolution pass |
-| [**clarifyrag**](https://github.com/ahmeddoghri/clarifyrag) | DiscoBench (2026) | Clarification-aware search agent — ask-gate **F1 1.00**, beats always-ask/always-search baselines on utility |
-
-### 🏭 Grounded in Production Patterns
-
-Reference implementations of the RAG citation, human-in-the-loop, and MLOps
-patterns behind real systems I've shipped in regulated and B2B environments —
-same discipline, open-sourced as small, tested, runnable artifacts.
-
-| Repo | Mirrors | Result |
-|---|---|---|
-| [**citebench**](https://github.com/ahmeddoghri/citebench) | Production RAG citation-grounding (FDA/regulatory docs) | Hybrid retrieval + reranking lifts citation precision **62% → 88%** on an adversarial benchmark |
-| [**churnfm**](https://github.com/ahmeddoghri/churnfm) | Automated churn-model retraining pipelines | PSI drift detection + auto-retrain recovers precision **80% → 89%** after a simulated concept drift |
-| [**taggate**](https://github.com/ahmeddoghri/taggate) (TypeScript) | Confidence-gated multi-agent tagging (LangGraph-style) | Escalating only ambiguous items to a human takes accuracy **75% → 100%** |
-
-### 🛠️ Production Services
-
-Full FastAPI services, not just libraries — Docker, docker-compose, and
-GitHub Actions CI (test matrix + a live container smoke test) on every one.
-Each defaults to an offline/deterministic backend so CI needs zero API keys,
-and is pluggable to a real model/backend via env vars for actual production use.
-
-| Repo | What it does | Result |
-|---|---|---|
-| [**vllm-cost-router**](https://github.com/ahmeddoghri/vllm-cost-router) | Cost/latency-aware LLM gateway — complexity-based model routing, caching, tier-batching in front of vLLM | **73%** cost reduction, **73%** p95 latency reduction vs. always-large-model serving |
-| [**guardrail-gate**](https://github.com/ahmeddoghri/guardrail-gate) | PII redaction + citation-grounding + rate limiting for outbound LLM text | **100%** precision/recall on structured PII, **83%** accuracy separating grounded from hallucinated responses |
-| [**tablextract**](https://github.com/ahmeddoghri/tablextract) | Block-aware table extraction from documents mixing prose and tables (regulatory/FDA-style), with cited querying | **0% → 100%** cell accuracy vs. naive line-by-line parsing on a mixed-content document |
+| Repo | Type | What it proves | Result |
+|---|---|---|---|
+| [**vllm-cost-router**](https://github.com/ahmeddoghri/vllm-cost-router) | Service (Python) | Complexity-based routing, caching, and batching in front of vLLM | **73%** lower cost, **73%** lower p95 latency vs. always-large-model serving |
+| [**guardrail-gate**](https://github.com/ahmeddoghri/guardrail-gate) | Service (Python) | PII redaction + citation grounding + rate limiting in one pass | **100%** precision/recall on structured PII, **83%** accuracy separating grounded from hallucinated responses |
+| [**tablextract**](https://github.com/ahmeddoghri/tablextract) | Service (Python) | Block-aware table extraction from mixed prose+table documents, with cited querying | **0% → 100%** cell accuracy vs. naive line-by-line parsing |
+| [**citebench**](https://github.com/ahmeddoghri/citebench) | Library (Python) | Quantifies what reranking actually buys you in citation-grounded RAG | Citation precision **62% → 88%** on an adversarial regulatory-style benchmark |
+| [**churnfm**](https://github.com/ahmeddoghri/churnfm) | Library (Python) | PSI drift detection triggering automatic model retraining | Post-drift precision recovers **80% → 89%** |
+| [**taggate**](https://github.com/ahmeddoghri/taggate) | Library (TypeScript) | Confidence-gated tagging, escalating only ambiguous items to a human | Accuracy **75% → 100%** by escalating the ambiguous 42% |
+| [**agentmem**](https://github.com/ahmeddoghri/agentmem) | Library (Python) | Bounded, self-consolidating long-term memory for LLM agents | Salience-gated writes, decay-aware retrieval, fixed capacity instead of an unbounded store |
+| [**rubricagent**](https://github.com/ahmeddoghri/rubricagent) | Library (Python) | Self-evolving LLM-as-judge rubrics learned from outcomes, not guessed | Rubric quality (AUC) **0.77 → 1.00** after one evolution pass |
+| [**clarifyrag**](https://github.com/ahmeddoghri/clarifyrag) | Library (Python) | A search agent that asks a clarifying question only when it actually helps | **100%** accuracy while asking **38% fewer** questions than always-asking |
 
 ### 📬 Get in Touch
 
