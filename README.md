@@ -1,14 +1,14 @@
 ## Hey there! 👋 Welcome to my GitHub profile!
 
-I'm **Ahmed Doghri**, a **Senior AI Engineer** with **7+ years** of experience building **LLM-powered AI systems, NLP pipelines, and data-driven solutions**. My expertise spans **machine learning, large-scale data engineering, and cloud-based AI deployment**. 🚀
+I'm Ahmed Doghri, a Senior AI Engineer with 7+ years building LLM-powered AI systems, NLP pipelines, and the unglamorous data engineering that keeps them running in production instead of just in a demo. 🚀
 
 ### 🛠️ What I Work On
 
-- **LLM Workflow Orchestration**: building and optimizing **multi-agent LLM workflows** for automation.
-- **Retrieval-Augmented Generation (RAG) Systems**: enhancing document intelligence with **search & extraction models**.
-- **Cloud & MLOps**: optimizing **GCP, AWS, and Kubernetes** for large-scale AI deployments.
-- **Deep Learning & NLP Research**: working on **transformers, embeddings, and model fine-tuning**.
-- **Real-Time Data Processing**: scaling **streaming pipelines with Kafka, Spark, and Flink**.
+- **LLM workflow orchestration**: multi-agent workflows that don't fall over the first time a step fails.
+- **Retrieval-augmented generation**: document intelligence that cites its sources instead of vibing an answer.
+- **Cloud & MLOps**: GCP, AWS, and Kubernetes at a scale where the bill actually matters.
+- **Deep learning & NLP research**: transformers, embeddings, model fine-tuning.
+- **Real-time data processing**: streaming pipelines on Kafka, Spark, and Flink that stay up.
 
 ---
 👨‍💻 **Tech Stack Mastery: Where I Spend My Time**
