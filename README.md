@@ -1,8 +1,10 @@
 # Ahmed Doghri
 
-Senior AI Engineer. 8+ years building ML across bioinformatics, genomics, vision, video, sound, LLM systems, and the unglamorous data engineering that keeps them running in production instead of just in a demo.
+**Senior AI Engineer — RAG, multi-agent orchestration, LLM evaluation, and MLOps.** 8+ years shipping production LLM and ML systems in regulated domains (pharma / FDA, banking / fintech, B2B), plus the unglamorous data engineering that keeps them running in production instead of just in a demo.
 
-I care about one thing in AI engineering: claims you can check. Every open source repo below ships a benchmark that reproduces locally, with no API keys and no asterisk. If a number is in a README, a command in that README regenerates it.
+I care about one thing in AI engineering: claims you can check. Every open source repo below ships a benchmark that reproduces locally, with no API keys and no asterisk — if a number is in a README, a command in that README regenerates it. The same discipline spans LLM infrastructure and agents through bioinformatics, genomics, vision, and audio.
+
+> 🟢 **Open to senior / staff / lead AI & ML engineering roles** (IC or founding) and AI-product roles — remote, or relocation for the right team. → **[adoghri.com](https://adoghri.com/)**
 
 ### 💼 Professional Work
 
