@@ -1,6 +1,6 @@
 # Ahmed Doghri
 
-Senior AI Engineer. 7+ years building LLM systems, NLP pipelines, and the unglamorous data engineering that keeps them running in production instead of just in a demo.
+Senior AI Engineer. 8+ years building ML across bioinformatics, genomics, vision, video, sound, LLM systems, and the unglamorous data engineering that keeps them running in production instead of just in a demo.
 
 I care about one thing in AI engineering: claims you can check. Every open source repo below ships a benchmark that reproduces locally, with no API keys and no asterisk. If a number is in a README, a command in that README regenerates it.
 
@@ -27,6 +27,23 @@ Six repos that cover the full surface of shipping LLM systems: cost, safety, hal
 | [**injectguard**](https://github.com/ahmeddoghri/injectguard) | Prompt injection and jailbreak detection with explainable verdicts | **100%** precision and recall on a red-team corpus of attacks and lookalikes |
 | [**agentmem**](https://github.com/ahmeddoghri/agentmem) | Bounded, self-consolidating long-term memory for LLM agents | Salience-gated writes, decay-aware retrieval, a hard budget it actually respects |
 | [**citebench**](https://github.com/ahmeddoghri/citebench) | What reranking actually buys you in citation-grounded RAG | Citation precision **62% → 88%** on an adversarial benchmark |
+
+### 🧬 Five Research Themes, Ten Working Reproductions
+
+Current research reduced to one mechanism, one baseline, and one number you can rerun. Every repo is MIT licensed, standard-library Python, and tested on 3.9, 3.11, and 3.13.
+
+| Theme | Repo | What it proves | Reproduced result |
+|---|---|---|---|
+| **Bioinformatics** | [**cellcontext**](https://github.com/ahmeddoghri/cellcontext) | Cellular context matters for perturbation response | MAE **0.2699 → 0.1813** |
+| **Bioinformatics** | [**foldcontact**](https://github.com/ahmeddoghri/foldcontact) | Contact constraints keep protein infilling fold-aware | Satisfaction **34.5% → 100%** |
+| **Genomics** | [**pangraphmap**](https://github.com/ahmeddoghri/pangraphmap) | Pangenome paths recover structural-variant reads a linear reference loses | **6/25 → 25/25** mapped |
+| **Genomics** | [**methyloadapt**](https://github.com/ahmeddoghri/methyloadapt) | Conserved motifs transfer when target-species labels run out | Accuracy **50% → 100%** |
+| **Machine learning** | [**driftfilter**](https://github.com/ahmeddoghri/driftfilter) | Forward-only prototypes follow gradual deployment drift | Accuracy **77.9% → 100%** |
+| **Machine learning** | [**taskrouter**](https://github.com/ahmeddoghri/taskrouter) | Routing preserves specialists that static merging averages away | MAE **1.379 → 0.000** |
+| **Vision + video** | [**distractrack**](https://github.com/ahmeddoghri/distractrack) | Motion and identity memory prevent swaps at object crossings | Accuracy **73.8% → 100%** |
+| **Vision + video** | [**d3video**](https://github.com/ahmeddoghri/d3video) | Synthetic motion artifacts show up in the difference of differences | Accuracy **50% → 100%** |
+| **Sound + music** | [**restem**](https://github.com/ahmeddoghri/restem) | A separator can improve itself over multiple inference steps | SNR **8.78 → 36.52 dB** |
+| **Sound + music** | [**binauralbench**](https://github.com/ahmeddoghri/binauralbench) | A clean stem still fails if it collapses the spatial cue | ILD error reduced **98.3%** |
 
 ### 🧪 The Rest of the Lab
 
