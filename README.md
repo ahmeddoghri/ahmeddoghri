@@ -44,6 +44,23 @@ Ten local-first systems I wanted to exist: tools that decide what to trust acros
 | **Audio delivery** | [**loudnessgate**](https://github.com/ahmeddoghri/loudnessgate) | EBU R128 loudness, range, peak, and normalization | **-18.4 LUFS**, with a measured **+2.4 dB** correction |
 | **Music libraries** | [**audiocatalog**](https://github.com/ahmeddoghri/audiocatalog) | Chromaprint duplicates across renamed or transcoded files | One duplicate at **98.65%** similarity |
 
+### ⚡ The Frontier Lab
+
+Ten useful experiments at the edge of current ML engineering. Every result below comes from the committed fixture or an actual generated media artifact, not from the source paper.
+
+| Theme | Repo | End-to-end job | Demo result |
+|---|---|---|---|
+| **Genomics** | [**strandshift**](https://github.com/ahmeddoghri/strandshift) | Audit sequence models across strand and window transforms | **18 views**, prediction range **0.7309** |
+| **Rare disease** | [**phenorank**](https://github.com/ahmeddoghri/phenorank) | Rank HPO disease candidates and test stability | Top score **0.6334**, stable **3/3** |
+| **ML security** | [**tensorwarden**](https://github.com/ahmeddoghri/tensorwarden) | Scan real checkpoint containers without loading them | Safe artifact accepted; **2 quarantined** |
+| **LLM privacy** | [**cacheisolate**](https://github.com/ahmeddoghri/cacheisolate) | Reproduce and stop cross-tenant cache timing leakage | **86 ms** oracle removed with useful reuse retained |
+| **RAG security** | [**ragpoisonbench**](https://github.com/ahmeddoghri/ragpoisonbench) | Inject corpus poison and test provenance quarantine | Recall **1.0 → 0.0 → 1.0** |
+| **3D vision** | [**splatgrade**](https://github.com/ahmeddoghri/splatgrade) | Parse and grade Gaussian Splat PLY artifacts | Grade **D / 49**, every defect localized |
+| **Generated video** | [**physicsvideo**](https://github.com/ahmeddoghri/physicsvideo) | Render MP4 scenarios and audit physical consistency | **4/4 faults**, **0** false positives |
+| **Multimodal media** | [**avsyncdoctor**](https://github.com/ahmeddoghri/avsyncdoctor) | Detect and repair offset plus clock drift | **120 ms**, **5,000 ppm**, repaired below **40 ms** |
+| **Audio engineering** | [**codecguard**](https://github.com/ahmeddoghri/codecguard) | Run real codec round trips behind a CI quality gate | Clean build passes; degraded build fails **4/4** gates |
+| **Robot safety** | [**safepathshield**](https://github.com/ahmeddoghri/safepathshield) | Project policy actions onto a barrier constraint | Collision steps **39 → 0**, goal still reached |
+
 ### 🏆 Flagship Open Source
 
 Six focused repos that isolate the hard parts of shipping LLM systems: cost, safety, hallucinations, memory, evals, and injection defense.
