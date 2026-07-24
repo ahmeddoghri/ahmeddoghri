@@ -2,7 +2,7 @@
 
 **Senior AI Engineer — RAG, multi-agent orchestration, LLM evaluation, and MLOps.** 8+ years shipping production LLM and ML systems in regulated domains (pharma / FDA, banking / fintech, B2B), plus the unglamorous data engineering that keeps them running in production instead of just in a demo.
 
-I care about one thing in AI engineering: claims you can check. Every open source repo below ships a benchmark that reproduces locally, with no API keys and no asterisk — if a number is in a README, a command in that README regenerates it. The same discipline spans LLM infrastructure and agents through bioinformatics, genomics, vision, and audio.
+I care about one thing in AI engineering: claims you can check. The systems below run end to end; the benchmarks regenerate their own numbers. No API keys, mystery services, or copied paper results. The same discipline spans LLM infrastructure and agents through bioinformatics, genomics, vision, and audio.
 
 > 🟢 **Open to senior / staff / lead AI & ML engineering roles** (IC or founding) and AI-product roles — remote, or relocation for the right team. → **[adoghri.com](https://adoghri.com/)**
 
@@ -17,9 +17,19 @@ Real systems shipped in regulated and B2B environments. Proprietary, not open so
 | **Streaming Data Platform** | Real-time event-driven ML pipeline on **Kafka, Spark, and Flink**. |
 | **Biomedical Text Enrichment** | **Transformer models** enriching research papers with biomedical insights. |
 
+### 🚢 Systems You Can Run End To End
+
+These are not notebook demos. Each one has a usable interface, a backend or CLI, persistence where the product needs it, tests, CI, and a documented local or containerized run path.
+
+| Repo | What ships | Check it |
+|---|---|---|
+| [**spanjudge**](https://github.com/ahmeddoghri/spanjudge) | OTLP agent-trace receiver, SQLite store, operational dashboard, JSON API, CLI, Docker image, and regression policy gate | Six spans rebuild three traces; the fixture passes latency, error, cost, and eval release limits |
+| [**vrsbridge**](https://github.com/ahmeddoghri/vrsbridge) | VCF parser, GA4GH VRS 1.3 translator, equivalence engine, browser workbench, JSON API, CLI, and Docker image | Four VCF encodings collapse into two normalized molecular variants |
+| [**leterminale**](https://github.com/ahmeddoghri/leterminale) | Browser terminal, encrypted client-side workspace, import/export, keyboard workflow, and static deployment | Open the live product and use it without an account or server-side document store |
+
 ### 🏆 Flagship Open Source
 
-Six repos that cover the full surface of shipping LLM systems: cost, safety, hallucinations, memory, evals, and injection defense.
+Six focused repos that isolate the hard parts of shipping LLM systems: cost, safety, hallucinations, memory, evals, and injection defense.
 
 | Repo | What it proves | Result |
 |---|---|---|
@@ -65,6 +75,7 @@ The same standard (reproducible benchmark, tests, CI, zero dependencies) applied
 
 | Tool | What it does |
 |---|---|
+| [**leterminale**](https://github.com/ahmeddoghri/leterminale) | A private, keyboard-first writing terminal with encrypted local workspaces and no account requirement. |
 | [**VectorMorph**](https://github.com/ahmeddoghri/VectorMorph) | SVG to animated WebP/GIF with frame blending. Built because Figma's export flaked one time too many. |
 | [**ATSProofResume**](https://github.com/ahmeddoghri/ATSProofResume) | Tailors your resume to a job posting without inventing experience. The free version of a $29/month industry. |
 | [**bookconverter**](https://github.com/ahmeddoghri/bookconverter) | Local EPUB/MOBI/PDF conversion. No upload limits, no queues, no well-hidden subscription. |
