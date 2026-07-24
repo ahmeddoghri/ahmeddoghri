@@ -27,6 +27,23 @@ These are not notebook demos. Each one has a usable interface, a backend or CLI,
 | [**vrsbridge**](https://github.com/ahmeddoghri/vrsbridge) | VCF parser, GA4GH VRS 1.3 translator, equivalence engine, browser workbench, JSON API, CLI, and Docker image | Four VCF encodings collapse into two normalized molecular variants |
 | [**leterminale**](https://github.com/ahmeddoghri/leterminale) | Browser terminal, encrypted client-side workspace, import/export, keyboard workflow, and static deployment | Open the live product and use it without an account or server-side document store |
 
+### 🔬 The Trust Layer
+
+Ten local-first systems I wanted to exist: tools that decide what to trust across biology, agents, media, and audio. Each ships a CLI, JSON API, browser workbench, Docker image, tests, CI, and an explicit boundary around what its result does not prove.
+
+| Theme | Repo | What it checks | Demo result |
+|---|---|---|---|
+| **Spatial biology** | [**spatialniche**](https://github.com/ahmeddoghri/spatialniche) | Cell-type neighborhood enrichment against a permuted null | Tumor neighborhood **z = 5.10** across 250 permutations |
+| **Protein structure** | [**structuregrade**](https://github.com/ahmeddoghri/structuregrade) | Per-residue pLDDT bands and inter-residue geometry | Grade **C**, mean pLDDT **71.88**, two residues below 50 |
+| **CRISPR genomics** | [**crisprradar**](https://github.com/ahmeddoghri/crisprradar) | Both-strand SpCas9 NGG mismatch and seed risk | **1 exact + 2 off-target** sites across 149 bases |
+| **Clinical genomics** | [**phenopacketlint**](https://github.com/ahmeddoghri/phenopacketlint) | GA4GH Phenopacket semantic exchange readiness | Three phenotype assertions, quality score **100** |
+| **Agent security** | [**mcpinterlock**](https://github.com/ahmeddoghri/mcpinterlock) | MCP tool authority, paths, approvals, secrets, and SSRF | One call denied with **2 independent violations** |
+| **ML privacy** | [**unlearnaudit**](https://github.com/ahmeddoghri/unlearnaudit) | Unlearning leakage against retained utility | Membership AUC **1.000 → 0.481**, accuracy stays **0.988** |
+| **Video privacy** | [**videoprivacy**](https://github.com/ahmeddoghri/videoprivacy) | Tracked redaction through detector gaps | **10 regions**, two identities, one gap filled |
+| **Media provenance** | [**manifestlens**](https://github.com/ahmeddoghri/manifestlens) | C2PA ingredients, actions, signatures, and hard binding | One ingredient, three actions, valid hard binding |
+| **Audio delivery** | [**loudnessgate**](https://github.com/ahmeddoghri/loudnessgate) | EBU R128 loudness, range, peak, and normalization | **-18.4 LUFS**, with a measured **+2.4 dB** correction |
+| **Music libraries** | [**audiocatalog**](https://github.com/ahmeddoghri/audiocatalog) | Chromaprint duplicates across renamed or transcoded files | One duplicate at **98.65%** similarity |
+
 ### 🏆 Flagship Open Source
 
 Six focused repos that isolate the hard parts of shipping LLM systems: cost, safety, hallucinations, memory, evals, and injection defense.
