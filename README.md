@@ -25,7 +25,6 @@ These are not notebook demos. Each one has a usable interface, a backend or CLI,
 |---|---|---|
 | [**spanjudge**](https://github.com/ahmeddoghri/spanjudge) | OTLP agent-trace receiver, SQLite store, operational dashboard, JSON API, CLI, Docker image, and regression policy gate | Six spans rebuild three traces; the fixture passes latency, error, cost, and eval release limits |
 | [**vrsbridge**](https://github.com/ahmeddoghri/vrsbridge) | VCF parser, GA4GH VRS 1.3 translator, equivalence engine, browser workbench, JSON API, CLI, and Docker image | Four VCF encodings collapse into two normalized molecular variants |
-| [**leterminale**](https://github.com/ahmeddoghri/leterminale) | Browser terminal, encrypted client-side workspace, import/export, keyboard workflow, and static deployment | Open the live product and use it without an account or server-side document store |
 
 ### 🔬 The Trust Layer
 
@@ -109,7 +108,6 @@ The same standard (reproducible benchmark, tests, CI, zero dependencies) applied
 
 | Tool | What it does |
 |---|---|
-| [**leterminale**](https://github.com/ahmeddoghri/leterminale) | A private, keyboard-first writing terminal with encrypted local workspaces and no account requirement. |
 | [**VectorMorph**](https://github.com/ahmeddoghri/VectorMorph) | SVG to animated WebP/GIF with frame blending. Built because Figma's export flaked one time too many. |
 | [**ATSProofResume**](https://github.com/ahmeddoghri/ATSProofResume) | Tailors your resume to a job posting without inventing experience. The free version of a $29/month industry. |
 | [**bookconverter**](https://github.com/ahmeddoghri/bookconverter) | Local EPUB/MOBI/PDF conversion. No upload limits, no queues, no well-hidden subscription. |
