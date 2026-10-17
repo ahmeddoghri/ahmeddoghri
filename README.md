@@ -1,6 +1,6 @@
 # Ahmed Doghri
 
-**Senior AI Engineer — RAG, multi-agent orchestration, LLM evaluation, and MLOps.** 8+ years shipping production LLM and ML systems in regulated domains (pharma / FDA, banking / fintech, B2B), plus the unglamorous data engineering that keeps them running in production instead of just in a demo.
+**Senior AI Engineer — RAG, multi-agent orchestration, LLM evaluation, and MLOps.** 10 years shipping production LLM and ML systems in regulated domains (pharma / FDA, banking / fintech, B2B), plus the unglamorous data engineering that keeps them running in production instead of just in a demo.
 
 I care about one thing in AI engineering: claims you can check. The systems below run end to end; the benchmarks regenerate their own numbers. No API keys, mystery services, or copied paper results. The same discipline spans LLM infrastructure and agents through bioinformatics, genomics, vision, and audio.
 
@@ -75,7 +75,7 @@ Six focused repos that isolate the hard parts of shipping LLM systems: cost, saf
 
 ### 🧬 Five Research Themes, Ten Working Reproductions
 
-Current research reduced to one mechanism, one baseline, and one number you can rerun. Every repo is MIT licensed, standard-library Python, and tested on 3.9, 3.11, and 3.13.
+Current research reduced to one mechanism, one baseline, and one number you can rerun. Every repo is MIT licensed, standard-library Python, and tested on every push on Python 3.11 and 3.13.
 
 | Theme | Repo | What it proves | Reproduced result |
 |---|---|---|---|
