@@ -5,6 +5,8 @@
 I care about one thing in AI engineering: claims you can check. The systems below run end to end; the benchmarks regenerate their own numbers. No API keys, mystery services, or copied paper results. The same discipline spans LLM infrastructure and agents through bioinformatics, genomics, vision, and audio.
 
 > 🟢 **Open to senior / staff / lead AI & ML engineering roles** (IC or founding) and AI-product roles — remote, or relocation for the right team. → **[adoghri.com](https://adoghri.com/)**
+>
+> 🎯 **Hiring?** Paste your job description into **[Fit.app](https://adoghri.com/#fit)**: every requirement links to the proof, and the gaps are listed too. Or **[re-run my benchmarks in your browser](https://adoghri.com/#proof)**.
 
 ### 💼 Professional Work
 
